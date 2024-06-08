@@ -1,0 +1,58 @@
+.weather-container{
+    padding: 2rem 2rem .5rem 2rem;
+    border: 2px solid #333333;
+    border-bottom: 8px solid #333333;
+    border-radius: 20px;
+    background-color: #1a1a1a ;
+  
+    .weather-input{
+      padding: .5rem;
+      width: 200px;
+    }
+  
+    .weather-info-city{
+      font-size: 2rem;
+    }
+    .weather-info-temp{
+      font-size: 3rem;
+    }
+    .icon-cont{
+      height: 24px;
+      width: 24px;
+    }
+    .weather-icon{
+      padding: 0;
+    }
+  
+    .weather-datetime{
+      font-style: italic;
+      text-align: center;
+      color: #999999;
+    }
+    .weather-details{
+        display: flex;
+        flex-direction: row;
+        gap:5rem;
+        justify-content: center;
+        padding: 1rem ;
+
+        .feelsLike, .humidity{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+
+            span{
+                font-size: 1.25rem
+            }
+        }
+    }
+    
+  }
+  
+  .class-hot{
+    border-bottom: 8px solid #ff5252;
+  }
+  .class-cold{
+    border-bottom: 8px solid #3fa2ff;
+  }
